@@ -7,7 +7,7 @@ if (!empty($_SESSION['active'])) {
     if (!empty($_POST)) {
         if (empty($_POST['usuario']) || empty($_POST['clave'])) {
             $alert = '<div class="alert alert-danger" role="alert">
-  Ingrese su usuario y su clave
+  Ingrese su usuario y su clave por favor
 </div>';
         } else {
             require_once "conexion.php";
